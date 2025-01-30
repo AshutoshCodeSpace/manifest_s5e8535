@@ -2,17 +2,15 @@
 <manifest>
     <remote name="lineageos"
         fetch="https://github.com/LineageOS/"
-        revision="refs/tags/lineage-21"
+        revision="lineage-21"
         sync-c="true"
-        sync-tags="false"
-        clone-depth="1" />
+        sync-tags="false" />
 
     <remote name="devhunter1"
         fetch="https://github.com/devhunter1/"
         revision="lineage-21"
         sync-c="true"
-        sync-tags="false"
-        clone-depth="1" />
+        sync-tags="false" />
 
     <!-- LineageOS Repositories -->
     <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="lineageos" />

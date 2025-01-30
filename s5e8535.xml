@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="lineageos"
+        fetch="https://github.com/LineageOS/"
+        revision="refs/tags/lineage-21"
+        sync-c="true"
+        sync-tags="false"
+        clone-depth="1" />
+
+    <remote name="devhunter1"
+        fetch="https://github.com/devhunter1/"
+        revision="lineage-21"
+        sync-c="true"
+        sync-tags="false"
+        clone-depth="1" />
+
+    <!-- LineageOS Repositories -->
+    <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="lineageos" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="lineageos" />
+    <project name="android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" remote="lineageos" />
+    <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" remote="lineageos" />
+    <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" remote="lineageos" />
+
+    <!-- Devhunter1 Device and Vendor Repositories -->
+    <project name="android_device_samsung_a14x" path="device/samsung/a14x" remote="devhunter1" />
+    <project name="android_vendor_samsung_a14x" path="vendor/samsung/a14x" remote="devhunter1" />
+    <project name="android_device_samsung_m14x" path="device/samsung/m14x" remote="devhunter1" />
+    <project name="android_vendor_samsung_m14x" path="vendor/samsung/m14x" remote="devhunter1" />
+    <project name="android_device_samsung_universal8535-common" path="device/samsung/universal8535-common" remote="devhunter1" />
+    <project name="android_vendor_samsung_universal8535-common" path="vendor/samsung/universal8535-common" remote="devhunter1" />
+
+    <!-- Devhunter1 Kernel Repository -->
+    <project name="android_kernel_samsung_s5e8535" path="kernel/samsung/s5e8535" remote="devhunter1" />
+</manifest>
